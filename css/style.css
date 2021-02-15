@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+.rm-a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #161b3d;
+}
+
+.tags {
+    display: inline-block;
+    background-color: #f0f0f0;
+    border-radius: 1rem;
+    padding: 0.6rem 1rem;
+    margin: auto 0;
+}
+
+.btn {
+    margin: 0rem 0.3rem;
+}
+
+header {
+    height: 12rem;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Reggae One', cursive;
+    font-size: 4.5rem;
+}
+
+.menu {
+    width: 56rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    margin-right: 1.2rem;
+}
+
+.menu a {
+    font-size: 1.6rem;
+    letter-spacing: 0.8px;
+    color: #161b3d;
+}
+
+.menu .fa-circle {
+    opacity: 0;
+    font-size: 0.7rem;
+    color: #d3d5dc;
+    position: absolute;
+    top: -0.8rem;
+}
+
+.menu .active {
+    opacity: 1;
+    color: #db0014;
+}
+
+.menu a:hover .fa-circle{
+    opacity: 1;
+}
+
+.fa-ellipsis-h {
+    font-size: 1.7rem;
+    color: #161b3d;
+}
+.fa-search {
+    font-size: 1.7rem;
+    color: #161b3d;
+    padding: 0.3rem 0.7rem;
+}
+
+.sign-in:hover {
+    background-color: #e2e5ed;
+}
+
+.sign-up {
+    color: white;
+    background-color: #db0014;
+}
+
+.sign-up:hover {
+    background-color: #ba0011;
+}
